@@ -43,9 +43,9 @@ export default defineConfig(({ mode }) => {
             ...postRoutes.en,
             ...postRoutes.es,
           ],
-          sitemap: {
-            host: 'https://mrrobot.dev',
-          },
+          // sitemap: {
+          //   host: 'https://mrrobot.dev',
+          // },
         },
         nitro: {
           preset: 'vercel',
