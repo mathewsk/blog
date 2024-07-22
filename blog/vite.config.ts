@@ -48,7 +48,7 @@ export default defineConfig(({ mode }) => {
           // },
         },
         nitro: {
-          preset: 'vercel',
+          preset: 'netlify',
           serveStatic: false,
           externals: { inline: ['zone.js/node', 'tslib'] },
         },
